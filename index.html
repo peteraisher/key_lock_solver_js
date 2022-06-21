@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Key Lock Solver</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      canvas {
+        width: 100%;
+        height: 100%;
+      }
+
+      .solveButton {
+        position:  absolute;
+        top: 10px;
+        right: 20px;
+        min-width: 40px;
+      }
+
+      .resetButton {
+        position:  absolute;
+        top: 40px;
+        right: 20px;
+        min-width: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="solve-button" class="solveButton">solve</button>
+    <button id="reset-button" class="resetButton">reset</button>
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <script src="js/key-lock-solver.js"></script>
+    <script src="js/key-lock-ui.js"></script>
+  </body>
+</html>
